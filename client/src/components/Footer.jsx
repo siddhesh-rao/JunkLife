@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
         <div>
           <h4 className="font-semibold">Contact</h4>
-          <p className="mt-3 text-sm text-brand-100">support@junklife.in</p>
+          <p className="mt-3 text-sm text-brand-100">siddhesh.cpp@gmail.com</p>
           <p className="text-sm text-brand-100">+91 98765 43210</p>
         </div>
       </div>

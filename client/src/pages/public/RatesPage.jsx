@@ -111,9 +111,9 @@ export default function RatesPage() {
                       <span className="ml-1 text-base font-semibold text-slate-500">/{rate.unit}</span>
                     </p>
                   </div>
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-900 text-white shadow-lg">
-                    {rate.unit === "unit" ? <BatteryCharging className="h-5 w-5" /> : <Trash2 className="h-5 w-5" />}
-                  </div> 
+                  
+                  
+                  
                 </div>
 
                 <div className="mt-8 flex items-center justify-between gap-3 border-t border-white/70 pt-5 text-sm text-slate-600">
@@ -121,7 +121,7 @@ export default function RatesPage() {
                     <ScanLine className="h-4 w-4 text-brand-700" />
                     <span>Updated {new Date(rate.lastUpdated).toLocaleDateString()}</span>
                   </div>
-                  <span className="font-semibold text-brand-800">Transparent pricing</span>
+                  <span className="font-semibold text-brand-800">Current pricing</span>
                 </div>
               </div>
             </article>
@@ -131,3 +131,10 @@ export default function RatesPage() {
     </section>
   );
 }
+
+
+/* at line 114 (battery and dustbin icon hataya hai)
+<div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-900 text-white shadow-lg">
+  {rate.unit === "unit" ? <BatteryCharging className="h-5 w-5" /> : <Trash2 className="h-5 w-5" />}
+</div> 
+*/

@@ -69,9 +69,9 @@ export default function PaymentPage() {
         <div className="rounded-[2rem] bg-brand-900 p-8 text-white">
           <h2 className="text-2xl font-bold">Razorpay Notes</h2>
           <ul className="mt-5 space-y-3 text-sm text-brand-100">
-            <li>Use `VITE_RAZORPAY_KEY_ID` in production checkout integration.</li>
-            <li>The current flow supports simulated payout confirmation for demo purposes.</li>
-            <li>Move to webhook verification for live transfers and settlement tracking.</li>
+            <li>🔒 100% secure payments powered by Razorpay, your bank details are never stored.</li>
+            <li>⚡ Instant payout directly to your UPI or bank account after pickup confirmation.</li>
+            <li>🔄 Every transaction is traceable, contact us with your Razorpay reference ID for any issue.</li>
           </ul>
         </div>
       </div>

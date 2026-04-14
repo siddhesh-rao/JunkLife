@@ -13,3 +13,11 @@ start().catch((error) => {
   console.error("Failed to start server", error);
   process.exit(1);
 });
+
+
+
+
+//updating this for uptimerobot
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ status: "OK" });
+});
